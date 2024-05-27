@@ -11,6 +11,8 @@ node_modules
 
 # SvelteKit Files
 /.svelte-kit
+frontend/.sveltekit
+
 
 # Package Files
 /package/
@@ -43,7 +45,6 @@ rmex.md
 
 # Additional Frontend-specific ignore rules
 frontend/node_modules
-frontend/.sveltekit
 frontend/build
 frontend/dist
 
