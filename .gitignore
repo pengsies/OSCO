@@ -11,7 +11,7 @@ node_modules
 
 # SvelteKit Files
 /.svelte-kit
-frontend/.sveltekit
+/frontend/.sveltekit
 
 
 # Package Files
