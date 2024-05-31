@@ -11,16 +11,17 @@ node_modules
 
 # SvelteKit Files
 /.svelte-kit
+/frontend/.svelte-kit
+
 
 # Package Files
 /package/
 
-# Ignore any IDE/editor-specific files or directories
-/.vscode
-/.idea
+# IDE/editor-specific files or directories
+/.vscode/
+/.idea/
 /shelf/
 /workspace.xml/
-
 
 # Environment Files
 .env
@@ -40,4 +41,16 @@ rmex.md
 /httpRequests/
 
 # Playwright Test results
-test-results/
+/test-results/
+
+# Additional Frontend-specific ignore rules
+frontend/node_modules
+frontend/build
+frontend/dist
+
+# Backend-specific ignore rules
+backend/__pycache__
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/venv
