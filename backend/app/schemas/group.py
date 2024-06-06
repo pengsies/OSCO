@@ -7,7 +7,7 @@ class GroupCreateSchema(BaseModel):
 
 class GroupUpdateSchema(BaseModel):
     name: Optional[str]
-    description: Optional[str]
+    membercount: int
 
 class GroupSchema(BaseModel):
     id: int
